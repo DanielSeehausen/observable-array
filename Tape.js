@@ -28,7 +28,7 @@ class Tape {
 
   // abstract animations out of tape. into domarray?
   flash(frame) {
-    // oink1.play()
+    // oink2.play()
     const el = this.domRefs[frame.idx]
     el.style.backgroundColor = frame.color
     setTimeout(() => {
@@ -37,7 +37,7 @@ class Tape {
   }
 
   updateBar(frame) {
-    oink2.play()
+    // oink1.play()
     this.domRefs[frame.idx].style.height = `${frame.val * config.heightMultiplier}px`
     this.domRefs[frame.idx].style.width = `${frame.val * config.widthMultiplier}px`
     this.domRefs[frame.idx].innerHTML = frame.val
@@ -68,7 +68,7 @@ class Tape {
         prevVal = this.arr[frameIdx]
         frameIdx++
       }
-    }, config.animationDuration * 3)
+    }, config.animationDuration)
   }
 
 }

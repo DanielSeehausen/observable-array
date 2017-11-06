@@ -30,8 +30,10 @@ html, body {
 .bar {
   background-color: #66E;
   border: 1px solid white;
-  width: 40px;
+  width: 10px;
 	display: inline;
+  margin: 0 2px;
+  text-align: center;
 }
 
 .flash-green {

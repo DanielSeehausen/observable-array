@@ -34,5 +34,5 @@ function main() {
 
 main()
 
-oink1 = new Audio('./snort1.m4a');
-oink2 = new Audio('./snort2.m4a');
+// oink1 = new Audio('./snort1.m4a');
+// oink2 = new Audio('./snort2.m4a');
