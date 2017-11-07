@@ -1,8 +1,8 @@
 const config = {
   arrSize: 30,
-  heightMultiplier: 4,
-  frameDuration: 10, // ms
-  animationDuration: 20, // ms
+  heightMultiplier: 5,
+  frameDuration: 20, // ms
+  animationDuration: 40, // ms
   sorts: [
     {
       id: "selection",

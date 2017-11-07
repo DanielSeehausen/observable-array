@@ -22,6 +22,10 @@ function genWatchedArrays(sorts, cassette) {
   })
 }
 
+
+
+oink1 = new Audio('./snort1.m4a');
+oink2 = new Audio('./snort2.m4a');
 function main() {
   const cassette = new Cassette()
   const watchedArrays = genWatchedArrays(config.sorts, cassette)
@@ -33,6 +37,3 @@ function main() {
 }
 
 main()
-
-// oink1 = new Audio('./snort1.m4a');
-// oink2 = new Audio('./snort2.m4a');
