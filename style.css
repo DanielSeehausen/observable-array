@@ -19,6 +19,7 @@ html, body {
 
 .array-list {
   display: flex;
+  margin: auto 15px;
   justify-content: center;
   align-items: flex-end;
   height: 100%;
@@ -30,7 +31,7 @@ html, body {
 .bar {
   background-color: #66E;
   border: 1px solid white;
-  width: 60px;
+  width: 10px;
 	display: inline;
   margin: 0 2px;
   text-align: center;

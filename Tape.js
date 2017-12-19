@@ -37,7 +37,7 @@ class Tape {
   }
 
   updateBar(frame) {
-    oink1.play()
+    // oink1.play()
     this.domRefs[frame.idx].style.height = `${frame.val * config.heightMultiplier}px`
     this.domRefs[frame.idx].style.width = `${frame.val * config.widthMultiplier}px`
     this.domRefs[frame.idx].innerHTML = frame.val

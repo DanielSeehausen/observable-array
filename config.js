@@ -1,6 +1,6 @@
-const config = {
+  const config = {
   arrSize: 30,
-  heightMultiplier: 5,
+  heightMultiplier: 4,
   frameDuration: 20, // ms
   animationDuration: 40, // ms
   sorts: [
